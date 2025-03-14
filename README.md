@@ -1,8 +1,10 @@
-You can make this webpage you own by doing the following!
+You can make this webpage you own by doing the following! It's a little long process so be patient :)
 
-Adding your center details , data and images!
+Adding your center details, data and images!
 
-Go to src > data. Here are all the jsons that need your help.
+Make sure in public > assets you have the following FOLDERS: ContactForm, Footer, ImpactStories, Experiences, Navbar, Home, Gallery, (if you want, then) Extras. If any are missing, please create empty folders first.
+
+Next, Go to src > data. Here are all the jsons that need your help.
 
 1. About.json : Add your center name, descrive your center and add the stats.
 
