@@ -1,3 +1,54 @@
+You can make this webpage you own by doing the following!
+
+Adding your center details , data and images!
+
+Go to src > data. Here are all the jsons that need your help.
+
+1. About.json : Add your center name, descrive your center and add the stats.
+
+2. contact.json : add the leader's contact info and center name. Give an email ID you are ok to get spam email from. Lastly go setup an EMailJS account and do the following: 1. Make a gmail service and get the service ID. paste it here. 2. Get the public key of emailJS and paste it here. 3. Make the template shown below and paste it here!
+
+EMailJS Template to make:
+
+    1. subject - Someone just sent {{centerName}} a query on the Website!
+
+    2. content - Hey Change Maker!
+
+        {{name}} just sent you a query from {{centerName}}'s Website!
+
+        Message: {{message}}.
+
+        Here are their details:
+
+        Name: {{name}}
+
+        Interested to Volunteer: {{interest}}
+
+        Contact Number: {{contact}}
+
+        Email ID: {{email}}
+
+        Please get in touch and clear their query soon!
+
+        Regards,
+        {{centerName}} Learning Center
+
+    3. to email - {{toEmail}}
+
+    4. From Name - {{centerName}} Website
+
+3. experiences.json: the format has already been given there. Add proper volunteer name, age, link to images stored in /assets/experiences/
+
+4. Gallery.json: fill up assets/gallery/ with all your center photographs, add them one by one to thi json file, yes i know it is a little time consuming, and add captions and dates.
+
+5. home.json currently has 4 picture links, change them to pictures u want in the home carousel by adding them in assets/home/ and linking them all here.
+
+6. impact.json: Again, similar to experiences.json, all the format is given with dummy data. Just add your own center impact stories as per cpp.
+
+7. then run app and enjoy. Play around with colour scheme, exchange components and structures! Go crazy!
+
+----------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

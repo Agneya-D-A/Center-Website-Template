@@ -1,8 +1,8 @@
 {
-    "Leader Contact Number": "+91 7019345052",
-    "Center Name":"Lakshya",
-    "Leader or Center Email": "lakshyalearningcenter.uandi@gmail.com",
-    "EmailJS Service ID": "service_i2ewous",
-    "EmailJS Template ID": "template_3yyfsn8",
-    "EmailJS Public Key": "-CYk9b1eYFbZuOcEG"
+    "Leader Contact Number": "Leader Contact",
+    "Center Name":"Center Name",
+    "Leader or Center Email": "Email ID you want to get emails from the site to",
+    "EmailJS Service ID": "Service ID from email JS",
+    "EmailJS Template ID": "Template ID from email JS",
+    "EmailJS Public Key": "Public Key from email JS"
 }
