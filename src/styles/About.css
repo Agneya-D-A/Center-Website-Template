@@ -3,7 +3,7 @@
   background-color:white;
   color: black;
   text-align: center;
-  height: 494px;
+  max-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;

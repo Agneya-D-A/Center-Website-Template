@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="logo-container" onClick={() => handleNavigation("home")} style={{"cursor": "pointer"}}>
           <img src="/assets/Navbar/uandi_logo.png" height={100} width={100} alt="U&I Logo" />
           <div className="logo">x</div>
-          <img id="LakshyaLogo" src="/assets/Navbar/LakshyaLogo.png" height={50} width={200} alt="Lakshya Logo" />
+          <img id="LakshyaLogo" src="/assets/Navbar/Kanasu.png" height={60} width={120} alt="Lakshya Logo" />
         </div>
 
         {/* Desktop Navigation */}
