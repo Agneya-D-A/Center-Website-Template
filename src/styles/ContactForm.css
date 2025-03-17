@@ -2,7 +2,7 @@
   width: 100vw;
   padding: 0 0 4rem 0;
   text-align: center;
-  background-color: #5d1aae;
+  background-color: #5D7A97;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,7 @@
   align-items: center; /* Align text to left */
   width: 50vw;
   max-width: 600px;
-  background: #5d1aae;
+  background: #5D7A97;
   padding: 30px;
   border-radius: 10px;
 }
@@ -23,7 +23,7 @@
 .contact-section h2 {
   color: black;
   font-size: 2rem;
-  background-color: #ffda1b;
+  background-color: #48AD71;
   width: 100vw;
   font-size: 2rem;
   padding: 1%;
@@ -113,7 +113,7 @@
 }
 
 .contact-form button:hover {
-  background-color: #d8b400;
+  background-color: #48AD71;
 }
 
 /* Status Message */
@@ -122,7 +122,7 @@
   font-weight: bold;
   font-size: 1rem;
   color: rgb(0, 0, 0);
-  background-color: #ffda1b;
+  background-color: #48AD71;
   border-radius: 12px;
   text-align: center;
   padding: 1rem;

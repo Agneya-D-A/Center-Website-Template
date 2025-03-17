@@ -31,7 +31,7 @@
   .navbar .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ffda1b; /* Blue-600 */
+    color: #48AD71; /* Blue-600 */
   }
   
   #LakshyaLogo{
@@ -102,7 +102,7 @@
 
 /* Hover state: Yellow */
 .navbar .desktop-nav li .scroll-link:hover {
-  color: #ffda1b; /* Yellow on hover */
+  color: #48AD71; /* Yellow on hover */
 }
 
 /* Restore the "Links" dropdown */
@@ -142,7 +142,7 @@
 }
 
 .dropdown-menu li:hover {
-  background: #ffda1b;
+  background: #48AD71;
 }
 
 .scroll-link {
@@ -155,7 +155,7 @@
 
 /* Hover state */
 .scroll-link:hover {
-  color: #ffda1b; /* Gold */
+  color: #48AD71; /* Gold */
 }
 
 *{

@@ -12,7 +12,7 @@ const ImpactStories = () => {
         <section className="impact-section">
             <h2 className="impact-heading">See how our Volunteers change lives — one story at a time!</h2>
             <div className="impact-body">
-                <p>*All the children have their names and other identifying features hidden to comply with Child Protection Policy</p>
+                <p style={{color:"black"}}>*All the children have their names and other identifying features hidden to comply with Child Protection Policy</p>
                 {/* Bento Grid Layout */}
                 <div className="impact-bento-grid">
                     <div className="impact-bento-item" onClick={() => setSelectedStory(impactStories[0])}>

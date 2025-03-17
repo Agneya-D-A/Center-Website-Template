@@ -1,7 +1,7 @@
 .gallery-container {
   text-align: center;
   padding: 0 0 4rem 0;
-  background-color: #ffda18;
+  background-color: #48AD71;
   overflow: hidden;
   position: relative;
 }
@@ -10,7 +10,7 @@
   font-size: 2rem;
   font-weight: bold;
   color: #ffffff; /* White text for contrast */
-  background-color: #5d1aae; /* Purple background */
+  background-color: #5D7A97; /* Purple background */
   padding: 1%;
   margin: 0;
   width: 100vw; /* Full viewport width */
@@ -76,7 +76,7 @@
 .gallery-carousel-caption {
   margin-top: 10px;
   font-size: 1rem;
-  color: #5d1aae;
+  color: white;
   font-weight: bold;
   text-align: center;
 }
@@ -136,13 +136,13 @@
 .gallery-modal-caption {
   margin-top: 10px;
   font-size: 1.2rem;
-  color: #333;
+  color: white;
   font-weight: bold;
 }
 
 .gallery-modal-date {
   font-size: 1rem;
-  color: #777;
+  color: white;
 }
 
 /* Close Button */

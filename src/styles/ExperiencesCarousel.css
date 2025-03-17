@@ -3,7 +3,7 @@
 .experiences-section {
   text-align: center;
   padding: 0 0 2rem 0;
-  background-color: #2d2d2d;
+  background-color: #BCD2D3;
   min-height: 500px;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
-  background-color: #ff3b6d;
+  background-color: #5F7065;
   width: 100vw;
   height: 10vh;
   margin-top: 0;
@@ -24,7 +24,7 @@
 .experience-heading {
   font-size: 2rem;
   font-weight: bold;
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -41,7 +41,7 @@
   text-align: center;
   font-size: 1rem;
   color: black;
-  background-color: #ff3b6d;
+  background-color: #A0B6D8;
   padding: 0.75rem 1rem;
   width: max-content;
   border-radius: 12px;
@@ -56,7 +56,7 @@
 
 .view-all:hover,
 .back-button:hover {
-  background-color: #d7325c;
+  background-color: #A0B6D8;
 }
 
 /* Experience Cards Grid */
@@ -133,7 +133,7 @@
 
 /* Read More Link */
 .read-more {
-  color: #ff3b6d;
+  color: #A0B6D8;
   cursor: pointer;
   font-size: 0.85rem;
   text-decoration: underline;

@@ -1,33 +1,30 @@
 [
-    { "src": "/assets/Gallery/", "caption": "Orientation of Volunteers", "date": "Aug, 2024" },
-    { "src": "/assets/Gallery/", "caption": "Friendship Day", "date": "Aug, 2024" },
-    { "src": "/assets/Gallery/", "caption": "Class time!", "date": "Aug, 2024" },
+    { "src": "/assets/Gallery/volunteers_outside_shed.jpg", "caption": "Day 1", "date": "Aug, 2024" },
+    { "src": "/assets/Gallery/flippen.jpg", "caption": "Flippen Tools", "date": "Aug, 2024" }, 
 
-    { "src": "/assets/Gallery/", "caption": "Ganesh Chathurthi", "date": "Sep, 2024" },
-    { "src": "/assets/Gallery/", "caption": "LC Calls PT.1", "date": "Sep, 2024" },
-    { "src": "/assets/Gallery/", "caption": "Post Class Getaways PT.1", "date": "Sep, 2024" },
-    { "src": "/assets/Gallery/", "caption": "Post Class Getaways PT.2", "date": "Sep, 2024" },
+    { "src": "/assets/Gallery/light in the dark.jpg", "caption": "Where there's a will there's a way", "date": "Sep, 2024" },
+    { "src": "/assets/Gallery/antyaakshari.jpg", "caption": "Antyaakshari Engagement Session", "date": "Oct, 2024" },
     
-    { "src": "/assets/Gallery/", "caption": "Cubbon Hunt", "date": "Oct, 2024" },
-    { "src": "/assets/Gallery/", "caption": "Diwali", "date": "Oct, 2024" },
-    { "src": "/assets/Gallery/", "caption": "Halloween", "date": "Oct, 2024" },
-    { "src": "/assets/Gallery/", "caption": "Diwali X Halloween", "date": "Oct, 2024" },
+    { "src": "/assets/Gallery/cat.jpg", "caption": "kittie-Pie", "date": "Oct, 2024" },
+    { "src": "/assets/Gallery/chirstmas decor.jpg", "caption": "Dil-waali Diwali", "date": "Oct, 2024" },
     
-    { "src": "/assets/Gallery/", "caption": "Guess Who? Children's Day Edition", "date": "Nov, 2024" },
-    { "src": "/assets/Gallery/", "caption": "Our Volunteers as Babies!", "date": "Nov, 2024" },
+    { "src": "/assets/Gallery/board.jpg", "caption": "We don't just like blackboards", "date": "Nov, 2024" },
+    { "src": "/assets/Gallery/sunday_vibes.jpg", "caption": "Sunday Vibes!", "date": "Nov, 2024" },
     
-    { "src": "/assets/Gallery/", "caption": "Children's Day X Christmas", "date": "Dec, 2024" },
-    { "src": "/assets/Gallery/", "caption": "Christmas Cleanup", "date": "Dec, 2024" },
-    { "src": "/assets/Gallery/", "caption": "LC Calls PT.2", "date": "Dec, 2024" },
-    { "src": "/assets/Gallery/", "caption": "Post Class Getaways PT.3", "date": "Dec, 2024" },
-    { "src": "/assets/Gallery/", "caption": "Children's Day X Christmas PT.2", "date": "Dec, 2024" },
+    { "src": "/assets/Gallery/christmas_tree.jpg", "caption": "Superheroes x christmas celebs", "date": "Dec, 2024" },
+    { "src": "/assets/Gallery/puppeteers.jpg", "caption": "The Puppeteers", "date": "Dec, 2024" },
+    { "src": "/assets/Gallery/santa.png", "caption": "Kids meet Santa", "date": "Dec, 2024" },
 
-    { "src": "/assets/Gallery/", "caption": "LC Calls PT.3", "date": "Jan, 2025" },
-    { "src": "/assets/Gallery/", "caption": "We Are Lakshya :)", "date": "Jan, 2025" },
+    { "src": "/assets/Gallery/magic_words.png", "caption": "Magic Words <3", "date": "Jan, 2025" },
+    { "src": "/assets/Gallery/IMG_9428 Copy.JPG", "caption": "An ode to Mothers", "date": "Jan, 2025" },
 
-    { "src": "/assets/Gallery/", "caption": "Crowdfunding Season", "date": "Feb, 2025" },
-    { "src": "/assets/Gallery/", "caption": "Science Fair", "date": "Feb, 2025" },
-    { "src": "/assets/Gallery/", "caption": "LC Calls PT.4", "date": "Feb, 2025" },
+    { "src": "/assets/Gallery/voting.jpg", "caption": "First election", "date": "Feb, 2025" },
+    { "src": "/assets/Gallery/landslide.jpg", "caption": "Landslide Election Win", "date": "Feb, 2025" },
+    { "src": "/assets/Gallery/science_fair_1.jpg", "caption": "Fairies @ Science fair", "date": "Feb, 2025" },
+    { "src": "/assets/Gallery/offline_crf.jpg", "caption": "Offline crowdfunding", "date": "Feb, 2025" },
+    { "src": "/assets/Gallery/kanasuxlakshya.jpg", "caption": "Kanasu X Lakshya", "date": "Feb, 2025" },
     
-    { "src": "/assets/Gallery/", "caption": "End of Year", "date": "Mar, 2025" }
+    { "src": "/assets/Gallery/kanasus woven.jpg", "caption": "Kanasus woven", "date": "Mar, 2025" },
+    { "src": "/assets/Gallery/bye_bye.jpg", "caption": "Bye bye crowdfunding", "date": "Mar, 2025" },
+    { "src": "/assets/Gallery/eoy_planning.jpg", "caption": "Planning for EOY", "date": "Mar, 2025" }
   ]

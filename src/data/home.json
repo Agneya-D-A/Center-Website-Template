@@ -1,14 +1,14 @@
 [
     {
-        "image": "/assets/Home/image1.jpg"
+        "image": "/assets/Home/slideshow1.jpg"
     },
     {
-        "image": "/assets/Home/image2.png"
+        "image": "/assets/Home/slideshow2.jpg"
     },
     {
-        "image": "/assets/Home/image3.JPG"
+        "image": "/assets/Home/slideshow_3.png"
     },
     {
-        "image": "/assets/Home/image4.jpg"
+        "image": "/assets/Home/slideshow4.jpg"
     }
 ]
