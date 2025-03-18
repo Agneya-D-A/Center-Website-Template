@@ -38,7 +38,7 @@
 .view-all, .back-button {
   display: inline-block;
   font-size: 1rem;
-  color: black;
+  color: white;
   background-color: #5F7065;
   padding: 0.75rem 1rem;
   border-radius: 12px;
