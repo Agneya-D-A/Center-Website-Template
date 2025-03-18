@@ -1,29 +1,27 @@
 /* About Section */
 .about {
-  background-color:white;
+  background-color: white;
   color: black;
   text-align: center;
-  max-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 0 2rem 0; /* Ensures equal padding on top and bottom */
+  padding: 3rem 1rem; /* Adjusted padding */
 }
 
 /* Container for the content */
 .about-container {
   max-width: 900px;
-  margin: 0;
   padding: 20px;
 }
 
 /* Heading Style */
 .about-heading {
-  font-size: 3rem;
+  font-size: 2.5rem; /* Slightly reduced */
   font-weight: bold;
   color: black;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Paragraph/Text Style */
@@ -53,16 +51,15 @@
   justify-content: center;
   text-align: center;
   gap: 0.5rem;
-
 }
 
 /* Styling for the numbers */
 .stat h3 {
-  font-size: 3rem; /* Large number */
+  font-size: 2.5rem; /* Adjusted for smaller screens */
   font-weight: bold;
-  color: #48AD71; /* Black */
-  line-height: 1; /* Ensures closer spacing between number and text */
-  margin-bottom: 5px; /* Adjust spacing */
+  color: #48AD71;
+  line-height: 1;
+  margin-bottom: 5px;
 }
 
 /* Styling for the labels */
@@ -71,4 +68,48 @@
   color: black;
   font-weight: normal;
   margin: 0;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 1024px) { /* Tablets */
+  .about-heading {
+    font-size: 2.2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .stat h3 {
+    font-size: 2.2rem;
+  }
+
+  .stat p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) { /* Mobile */
+  .stats-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem; /* Adds spacing between stat items */
+  }
+
+  .about-heading {
+    font-size: 2rem;
+  }
+
+  .about-text {
+    font-size: 0.8rem;
+    padding: 0 15px;
+  }
+
+  .stat h3 {
+    font-size: 2rem;
+  }
+
+  .stat p {
+    font-size: 1rem;
+  }
 }

@@ -142,7 +142,7 @@ const ContactForm = () => {
               }))}
             />
             <label className="form-check-label" htmlFor="flexCheckDefault">
-              Show your Interest to Volunteer!
+              Volunteer with us?
             </label>
           </div>
 
@@ -151,7 +151,7 @@ const ContactForm = () => {
             type="submit"
             disabled={!isFormValid} // Disable if form is incomplete
             style={{
-              backgroundColor: isFormValid ? "#ffda1b" : "#2d2d2d",
+              backgroundColor: isFormValid ? "#48AD71" : "#2d2d2d",
               color: isFormValid ? "#000" : "#fff",
               cursor: isFormValid ? "pointer" : "not-allowed",
             }}
@@ -159,7 +159,7 @@ const ContactForm = () => {
             Submit
           </button>
         </form>
-        <img src="/assets/ContactForm/image1.png" width={"300px"} alt="Contact Illustration" />
+        <img src="/assets/ContactForm/image1.png" width={"300px"} alt="Contact Illustration" className="contactform-art"/>
       </div>
       {status && <p className="status-message">{status}</p>}
     </section>

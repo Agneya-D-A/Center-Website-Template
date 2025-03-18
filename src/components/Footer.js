@@ -1,6 +1,7 @@
 import React from "react";
 import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 import "../styles/Footer.css"; // Import CSS file
+import contact from "../data/contact.json";
 
 export default function Footer() {
   return (
@@ -47,7 +48,7 @@ export default function Footer() {
         {/* Column 4: Get in Touch */}
         <div className="footer-column">
           <h3 className="footer-title">GET IN TOUCH</h3>
-          <p className="footer-text">E: lakshyalearningcenter.uandi@gmail.com</p>
+          <p className="footer-text">E: {contact["Leader or Center Email"]}</p>
         </div>
 
       </div>

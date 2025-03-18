@@ -1,3 +1,4 @@
+/* ✅ CONTACT SECTION */
 .contact-section {
   width: 100vw;
   padding: 0 0 4rem 0;
@@ -9,10 +10,11 @@
   flex-direction: column;
 }
 
+/* ✅ FORM CONTAINER */
 .contact-form {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Align text to left */
+  align-items: center;
   width: 50vw;
   max-width: 600px;
   background: #5D7A97;
@@ -20,30 +22,30 @@
   border-radius: 10px;
 }
 
+/* ✅ HEADING */
 .contact-section h2 {
   color: black;
   font-size: 2rem;
   background-color: #48AD71;
   width: 100vw;
-  font-size: 2rem;
   padding: 1%;
   margin: 0;
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* Label Styling */
+/* ✅ FORM FIELDS */
 .contact-form label {
   font-weight: bold;
   color: rgb(255, 255, 255);
   font-size: 16px;
   margin-bottom: 5px;
-  display: block; /* Places label above input */
+  display: block;
   text-align: left;
   width: 90%;
 }
 
-/* Input Fields */
+/* ✅ INPUT & TEXTAREA */
 .contact-form input:not([type="checkbox"]),
 .contact-form textarea {
   width: 90%;
@@ -54,39 +56,33 @@
   border: 2px solid #000000;
   border-radius: 8px;
   font-size: 16px;
-  font-family: inherit; /* Ensures consistent font */
-  color: #000; /* Ensures text color is the same */
+  font-family: inherit;
+  color: #000;
   transition: 0.3s ease-in-out;
 }
 
-.contact-form input:not([type="checkbox"]):focus,
+.contact-form input:focus,
 .contact-form textarea:focus {
   border-color: #007acc;
   outline: none;
   box-shadow: 0px 0px 5px rgba(0, 122, 204, 0.3);
 }
 
-/* Textarea */
+/* ✅ TEXTAREA RESIZE */
 .contact-form textarea {
   height: 150px;
   resize: vertical;
 }
 
-#volunteerInterest{
-  min-width: none;
-  max-width: none;
-  width: max-content;
-}
-
-/* Checkbox Styling */
+/* ✅ CHECKBOX */
 .checkbox-container {
   display: flex;
-  align-items: center;  /* Ensures checkbox and text are aligned */
+  align-items: center;
   width: 90%;
   font-size: 16px;
   margin: 10px 0;
-  gap: 10px; /* Adds spacing between checkbox and label */
-  white-space: nowrap; /* Prevents label from wrapping to next line */
+  gap: 10px;
+  white-space: nowrap;
 }
 
 .checkbox-container input {
@@ -95,14 +91,13 @@
   margin: 0;
 }
 
-/* Submit Button */
+/* ✅ SUBMIT BUTTON */
 .contact-form button {
   width: 95%;
   height: 50px;
   padding: 12px;
-  /* background-color: #ffda1b; */
   background-color: #222;
-  color: rgb(255, 255, 255);
+  color: white;
   border: none;
   border-radius: 8px;
   font-size: 18px;
@@ -116,12 +111,12 @@
   background-color: #48AD71;
 }
 
-/* Status Message */
+/* ✅ STATUS MESSAGE */
 .status-message {
   margin-top: 10px;
   font-weight: bold;
   font-size: 1rem;
-  color: rgb(0, 0, 0);
+  color: black;
   background-color: #48AD71;
   border-radius: 12px;
   text-align: center;
@@ -129,16 +124,42 @@
   width: max-content;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .contact-form {
-    width: 80vw;
-  }
-}
-
-.FormandPicArt{
+/* ✅ LAYOUT FOR FORM & ART */
+.FormandPicArt {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 10vw;
+}
+
+/* ✅ RESPONSIVE DESIGN */
+@media (max-width: 768px) { /* Tablets */
+  
+
+  .contact-form {
+    width: 80vw;
+  }
+
+  .contactform-art{
+    display: none;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile */
+  .contact-form {
+    width: 90vw;
+  }
+
+  .contact-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .checkbox-container {
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    font-size: 16px;
+    height: 45px;
+  }
 }

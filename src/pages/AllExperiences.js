@@ -42,7 +42,7 @@ const AllExperiences = () => {
       <div className="headingAndCards">
         <div className="all-experience-header">
           <h2 className="all-experience-heading">
-            See the journey every single one of our volunteers took!
+            Experience their Journey!
           </h2>
         </div>
 

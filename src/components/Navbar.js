@@ -1,44 +1,65 @@
-import React, { useState } from "react";
-import { scroller } from "react-scroll"; 
+import React, { useState, useEffect } from "react";
+import { scroller } from "react-scroll";
 import { useNavigate, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
 
   const handleNavigation = (section) => {
+    setIsMobileMenuOpen(false);
     if (location.pathname !== "/") {
-      navigate("/", { state: { scrollTo: section } }); 
+      navigate("/", { state: { scrollTo: section } });
     } else {
-      scroller.scrollTo(section, { smooth: true, duration: 500, offset: -100 }); 
+      scroller.scrollTo(section, { smooth: true, duration: 500, offset: -100 });
     }
   };
+
+  // Close mobile menu when resizing above mobile width
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <nav className="navbar">
       <div className="container">
-        {/* Logo */}
-        <div className="logo-container" onClick={() => handleNavigation("home")} style={{"cursor": "pointer"}}>
-          <img src="/assets/Navbar/uandi_logo.png" height={100} width={100} alt="U&I Logo" />
-          <div className="logo">x</div>
-          <img id="LakshyaLogo" src="/assets/Navbar/Kanasu.png" height={60} width={120} alt="Lakshya Logo" />
+        {/* Mobile Menu Icon */}
+        <div className="mobile-menu-icon" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+        {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
         </div>
 
-        {/* Desktop Navigation */}
-        <ul className="desktop-nav">
+        {/* Logo */}
+        <div className="logo-container" onClick={() => handleNavigation("home")} style={{ cursor: "pointer" }}>
+          <img src="/assets/Navbar/uandi_logo.png" className="logo-img" alt="U&I Logo" />
+          <div className="logo">x</div>
+          <img id="KanasuLogo" className="logo-img-kanasu" src="/assets/Navbar/Kanasu.png" alt="Kanasu Logo" />
+        </div>
+
+        {/* Navigation */}
+        <ul className={`desktop-nav ${isMobileMenuOpen ? "mobile-nav-active" : ""}`}>
           <li onClick={() => handleNavigation("home")} className="scroll-link">Home</li>
           <li onClick={() => handleNavigation("about")} className="scroll-link">About</li>
           <li onClick={() => handleNavigation("impact-section")} className="scroll-link">Impact Stories</li>
           <li onClick={() => handleNavigation("gallery-container")} className="scroll-link">Gallery</li>
           <li onClick={() => handleNavigation("experiences")} className="scroll-link">Experiences</li>
 
-          {/* Dropdown Menu for LINKS */}
+          {/* Dropdown Menu */}
           <li
             className="dropdown scroll-link"
             onMouseEnter={() => setIsDropdownOpen(true)}
             onMouseLeave={() => setIsDropdownOpen(false)}
+            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           >
             Links
             {isDropdownOpen && (
@@ -49,6 +70,7 @@ const Navbar = () => {
               </ul>
             )}
           </li>
+
           <li onClick={() => handleNavigation("contact")} className="scroll-link">Contact</li>
         </ul>
       </div>
