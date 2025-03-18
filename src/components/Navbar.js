@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="logo-container" onClick={() => handleNavigation("home")} style={{ cursor: "pointer" }}>
           <img src="/assets/Navbar/uandi_logo.png" className="logo-img" alt="U&I Logo" />
           <div className="logo">x</div>
-          <img id="KanasuLogo" className="logo-img-kanasu" src="/assets/Navbar/Kanasu.png" alt="Kanasu Logo" />
+          <img id="KanasuLogo" className="logo-img-kanasu" src="/assets/Logo.png" alt="Kanasu Logo" />
         </div>
 
         {/* Navigation */}
