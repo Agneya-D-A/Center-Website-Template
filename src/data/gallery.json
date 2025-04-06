@@ -26,5 +26,7 @@
     
     { "src": "/assets/Gallery/kanasus woven.jpg", "caption": "Kanasus woven", "date": "Mar, 2025" },
     { "src": "/assets/Gallery/bye_bye.jpg", "caption": "Bye bye crowdfunding", "date": "Mar, 2025" },
-    { "src": "/assets/Gallery/eoy_planning.jpg", "caption": "Planning for EOY", "date": "Mar, 2025" }
+    { "src": "/assets/Gallery/eoy_planning.jpg", "caption": "Planning for EOY", "date": "Mar, 2025" },
+    { "src": "/assets/Gallery/eoy_dance.png", "caption": "EOY sneak peek 1", "date": "Mar, 2025" },
+    { "src": "/assets/Gallery/eoy_song.JPG", "caption": "EOY sneak peek 1", "date": "Mar, 2025" }
   ]
